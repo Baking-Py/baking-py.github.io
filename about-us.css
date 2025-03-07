@@ -11,12 +11,7 @@
   align-self: center;
   align-items: flex-start;
 }
- 
-.hero5-placeholder-image {
-  width: 556px;
-  height: 424px;
-}
- 
+  
 .hero5-content {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
