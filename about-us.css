@@ -11,7 +11,7 @@
   align-self: center;
   align-items: flex-start;
 }
-  
+ 
 .hero5-content {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
@@ -57,10 +57,6 @@
 }
  
 @media(max-width: 479px) {
-  .hero5-placeholder-image {
-    width: 427px;
-    heihgt: 300px;
-  }
 }
 
 .logos2-wrapper {
@@ -108,11 +104,6 @@
   align-items: flex-start;
 }
  
-.logos2-placeholder-image {
-  width: 556px;
-  height: 424px;
-}
- 
 .about-us-fragment3 {
   display: contents;
 }
@@ -156,9 +147,6 @@
     width: 100%;
     flex-direction: column;
   }
-  .logos2-placeholder-image {
-    width: 427px;
-  }
 }
 
 .hero51-wrapper {
@@ -176,8 +164,6 @@
 }
  
 .hero51-placeholder-image {
-  width: 428px;
-  height: 424px;
   border-radius: var(--dl-radius-radius-round);
 }
  
