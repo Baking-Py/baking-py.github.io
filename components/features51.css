@@ -1,0 +1,152 @@
+.features51-layout223 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.features51-max-width {
+  gap: var(--dl-space-space-threeunits);
+}
+ 
+.features51-list {
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.features51-content2 {
+  gap: var(--dl-space-space-unit);
+  align-items: flex-start;
+}
+ 
+.features51-content3 {
+  gap: var(--dl-space-space-unit);
+  align-items: flex-start;
+}
+ 
+.features51-content4 {
+  gap: var(--dl-space-space-unit);
+  align-items: flex-start;
+}
+ 
+.features51-fragment1 {
+  display: contents;
+}
+ 
+.features51-text1 {
+  display: inline-block;
+}
+ 
+.features51-fragment2 {
+  display: contents;
+}
+ 
+.features51-text2 {
+  display: inline-block;
+}
+ 
+.features51-fragment3 {
+  display: contents;
+}
+ 
+.features51-text3 {
+  display: inline-block;
+}
+ 
+.features51-fragment4 {
+  display: contents;
+}
+ 
+.features51-text4 {
+  display: inline-block;
+}
+ 
+.features51-fragment5 {
+  display: contents;
+}
+ 
+.features51-text5 {
+  display: inline-block;
+}
+ 
+.features51-fragment6 {
+  display: contents;
+}
+ 
+.features51-text6 {
+  display: inline-block;
+}
+ 
+.features51-fragment7 {
+  display: contents;
+}
+ 
+.features51-text7 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 991px) {
+  .features51-layout223 {
+    flex-direction: column;
+  }
+  .features51-max-width {
+    flex-direction: column;
+  }
+  .features51-title2 {
+    text-align: center;
+  }
+  .features51-description2 {
+    text-align: left;
+  }
+  .features51-content3 {
+    align-items: flex-start;
+  }
+  .features51-title3 {
+    text-align: center;
+  }
+  .features51-description3 {
+    text-align: left;
+  }
+  .features51-content4 {
+    align-items: flex-start;
+  }
+  .features51-title1 {
+    text-align: center;
+  }
+  .features51-description1 {
+    text-align: left;
+  }
+  .features51-actions {
+    align-items: center;
+  }
+  .features51-button {
+    width: 100%;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .features51-list-item1 {
+    gap: var(--dl-space-space-unit);
+  }
+  .features51-list-item2 {
+    gap: var(--dl-space-space-unit);
+  }
+  .features51-actions {
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: var(--dl-space-space-unit);
+  }
+  .features51-button {
+    width: 100%;
+  }
+  .features51root-class-name {
+    margin-top: var(--dl-space-space-sixunits);
+  }
+}

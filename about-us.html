@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About-Us - Baking Py</title>
+    <meta property="og:title" content="About-Us - Baking Py Website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./about-us.css" rel="stylesheet" />
+
+      <div class="about-us-container">
+        <header data-thq="thq-navbar" class="about-us-navbar-interactive">
+          <img
+            alt="logo"
+            src="public/external/pie.png"
+            loading="eager"
+            class="about-us-image"
+          />
+          <div data-thq="thq-navbar-nav" class="about-us-desktop-menu">
+            <nav class="about-us-links1">
+              <a href="index.html" class="about-us-navlink1">
+                <span>Classes</span>
+                <br />
+              </a>
+              <a href="about-us.html" class="about-us-navlink2">About Us</a>
+              <a href="contact.html" class="about-us-navlink3">Contact</a>
+            </nav>
+            <div class="about-us-buttons1">
+              <a
+                href="https://forms.gle/c6Tr8K9T5JyY7aYY7"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-register1 button"
+              >
+                Register
+              </a>
+            </div>
+          </div>
+          <div data-thq="thq-burger-menu" class="about-us-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="about-us-icon10">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="about-us-mobile-menu">
+            <div class="about-us-nav">
+              <div class="about-us-top">
+                <img
+                  alt="image"
+                  src="public/external/pie.png"
+                  class="about-us-logo"
+                />
+                <div data-thq="thq-close-menu" class="about-us-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="about-us-icon12">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="about-us-links2">
+                <a href="index.html" class="about-us-navlink4">Classes</a>
+                <a href="about-us.html" class="about-us-navlink5">About Us</a>
+                <a href="contact.html" class="about-us-navlink6">Contact</a>
+              </nav>
+              <div class="about-us-buttons2">
+                <a
+                  href="https://forms.gle/c6Tr8K9T5JyY7aYY7"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="about-us-register2 button"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <hero5-wrapper class="hero5-wrapper">
+          <!--Hero5 component-->
+          <div class="hero5-header19 thq-section-padding">
+            <div class="hero5-max-width thq-flex-row thq-section-max-width">
+              <img
+                alt="PlaceholderImage1314"
+                src="public/external/thinking.png"
+                class="hero5-placeholder-image thq-img-ratio-4-3"
+              />
+              <div class="hero5-content">
+                <h1 class="hero5-text1 thq-heading-1">
+                  <fragment class="about-us-fragment2">
+                    <span class="about-us-text13">Mission</span>
+                  </fragment>
+                </h1>
+                <p class="hero5-text2 thq-body-large">
+                  <fragment class="about-us-fragment1">
+                    <span class="about-us-text12">
+                      When I was learning these topics, all the classes taught
+                      the same things, but none of them were taught in a way
+                      that stuck to me. We aim to structure our classes in a way
+                      each topic simply merges into the next. That way, it is
+                      much more likely that students will be able to remember
+                      the topics and get an intuition for how it works. Even
+                      within the same topics, our exercises flow easily from one
+                      to another eventually reaching a realization of a new
+                      topic. Many times, students don't even notice that they've
+                      learned something new because it seems so intuitive. This
+                      is what we try to teach, not memorization of topics, but
+                      the intuition behind them.
+                    </span>
+                  </fragment>
+                </p>
+              </div>
+            </div>
+          </div>
+        </hero5-wrapper>
+        <logos2-wrapper class="logos2-wrapper">
+          <!--Logos2 component-->
+          <div class="logos2-container thq-section-padding">
+            <div class="logos2-max-width thq-flex-row thq-section-max-width">
+              <div class="logos2-content">
+                <h1 class="logos2-text1 thq-heading-1">
+                  <fragment class="about-us-fragment4">
+                    <span class="about-us-text15">Cost</span>
+                  </fragment>
+                </h1>
+                <p class="logos2-text2 thq-body-large">
+                  <fragment class="about-us-fragment3">
+                    <span class="about-us-text14">
+                      We are committed to keeping our classes free. Any
+                      donations we request go straight back into the program.
+                      One of the main things we use this money for is to try and
+                      get in-person rooms in a library or community center to be
+                      able to talk to students face to face.
+                    </span>
+                  </fragment>
+                </p>
+                <div class="logos2-actions"></div>
+              </div>
+              <img
+                alt="PlaceholderImage1314"
+                src="public/external/study-room.png"
+                class="logos2-placeholder-image thq-img-ratio-4-3"
+              />
+            </div>
+          </div>
+        </logos2-wrapper>
+        <hero51-wrapper class="hero51-wrapper">
+          <!--Hero51 component-->
+          <div class="hero51-header19 thq-section-padding">
+            <div class="hero51-max-width thq-flex-row thq-section-max-width">
+              <img
+                alt="PlaceholderImage1314"
+                src="public/external/profile-picture.jpg"
+                class="hero51-placeholder-image thq-img-ratio-4-3"
+              />
+              <div class="hero51-content">
+                <h1 class="hero51-text1 thq-heading-1">
+                  <fragment class="about-us-fragment6">
+                    <span class="about-us-text17">
+                      <span>Aaditya Shinde</span>
+                      <br />
+                    </span>
+                  </fragment>
+                </h1>
+                <p class="hero51-text2 thq-body-large">
+                  <fragment class="about-us-fragment5">
+                    <span class="about-us-text16">
+                      I'm the instructor behind our engaging classes at Baking
+                      Py. A programming enthusiast myself, I'm dedicated to
+                      creating a open, nurturing learning space where everyone
+                      can grow and thrive. As the only full-time instructor, I
+                      design and deliver our classes. I'm excited to share my
+                      passion and expertise with our community, and am eager to
+                      help you achieve your goals.
+                    </span>
+                  </fragment>
+                </p>
+              </div>
+            </div>
+          </div>
+        </hero51-wrapper>
+        <footer121-wrapper
+          class="footer121-wrapper"
+          rootclassname="footer121undefined"
+        >
+          <!--Footer121 component-->
+          <footer
+            class="footer121-footer1 thq-section-padding footer121root-class-name"
+          >
+            <div class="footer121-max-width thq-section-max-width">
+              <div class="footer121-content">
+                <div class="footer121-newsletter">
+                  <span class="thq-body-small">
+                    Subscribe to our newsletter for information on new classes
+                    and updates on current ones
+                  </span>
+                  <div class="footer121-actions">
+                    <div class="footer121-form">
+                      <div class="footer121-container">
+                        <input
+                          id="emailInput"
+                          type="email"
+                          placeholder="Enter your email"
+                          class="footer121-text-input thq-input"
+                        />
+                      </div>
+                      <button id="subNewsletter" class="thq-button-outline footer121-button">
+                        <span class="thq-body-small">
+                          <fragment class="about-us-fragment7">
+                            <span class="about-us-text20">Subscribe</span>
+                          </fragment>
+                        </span>
+                      </button>
+                    </div>
+                    <span class="footer121-content2 thq-body-small">
+                      <fragment class="about-us-fragment8">
+                        <span class="about-us-text21">
+                          By subscribing you provide consent to receive updates
+                          from our organization.
+                        </span>
+                      </fragment>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="footer121-credits">
+                <div class="thq-divider-horizontal"></div>
+                <span class="thq-body-small">
+                  <fragment class="about-us-fragment9">
+                    <span class="about-us-text22">© 2025 Baking Py</span>
+                  </fragment>
+                </span>
+              </div>
+            </div>
+          </footer>
+        </footer121-wrapper>
+      </div>
+    </div>
+    <script>
+      document.getElementById('subNewsletter').addEventListener('click', function() {
+        const email = document.getElementById('emailInput').value;
+    
+        if (email) {
+          fetch("https://script.google.com/macros/s/AKfycbxcvI4UKcTbD0aazCF4QlZZvI0VXmpyB1HlLHCXXAVCeWUk6a49Vqt_Jf_HCYmDlv3w/exec", {
+            method: "POST",
+            mode: "no-cors",
+            body: JSON.stringify({ email: email }),
+            headers: {
+              "Content-Type": "application/json"
+            }
+          })
+          .then(() => {
+            alert("Thank you for subscribing!");
+            document.getElementById('emailInput').value = '';
+          })
+          .catch(error => {
+            console.error("Error:", error);
+            alert("There was an error, please try again.");
+          });
+        } else {
+          alert("Please enter a valid email address.");
+        }
+      });
+    </script>
+    <script
+      type="text/javascript"
+      src="https://www.googletagmanager.com/gtag/js?id=G-LVWDSYKF9N"
+      async=""
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-LVWDSYKF9N');
+    </script>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
