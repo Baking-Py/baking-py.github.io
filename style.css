@@ -249,8 +249,8 @@
  
 .thq-img-ratio-4-3 {
   width: 100%;
-  object-fit: cover;
   aspect-ratio: 4/3;
+  object-fit: cover;
   border-radius: var(--dl-radius-radius-imageradius);
 }
  
